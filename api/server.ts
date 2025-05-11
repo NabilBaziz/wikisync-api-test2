@@ -1,5 +1,5 @@
 import express from 'express';
-import { verifySupabaseJWT } from './middlewares/verifySupabaseJWT';
+import { verifySupabaseJWT } from './middlewares/verifySupabaseJWT.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
